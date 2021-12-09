@@ -1,0 +1,9 @@
+CREATE DATABASE Client
+CREATE TABLE Login 
+(  
+    User_ID IDENTITY(1, 1) PRIMARY KEY NEWID NOT NULL  
+    ,Login NEWID NOT NULL  
+    ,Password NEWID NULL  
+    ,Email NEWID NULL  
+
+);  
